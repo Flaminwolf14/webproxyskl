@@ -5,3 +5,6 @@ $ git add .
 $ git commit -am "make it better"
 $ git push heroku master
 $ heroku git:remote -a webproxyskl
+$ git checkout -b main
+$ git branch -D master
+$ git push heroku main
